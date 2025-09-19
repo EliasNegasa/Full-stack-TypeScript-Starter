@@ -12,8 +12,8 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Frontend</h1>
+    <div className="p-4">
+      <h1 className="text-3xl text-amber-500">Frontend</h1>
       <p>{message || "Loading..."}</p>
     </div>
   );
