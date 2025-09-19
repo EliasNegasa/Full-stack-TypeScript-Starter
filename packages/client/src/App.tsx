@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Button } from "./components/ui/button";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div className="p-4">
       <h1 className="text-3xl text-amber-500">Frontend</h1>
       <p>{message || "Loading..."}</p>
+      <Button>Click</Button>
     </div>
   );
 }
